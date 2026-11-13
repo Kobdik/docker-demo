@@ -2873,3 +2873,38 @@ logger=plugin.backgroundinstaller t=2026-11-13T20:38:01.204440464Z level=error m
 logger=search-manifest-watcher t=2026-11-13T20:38:09.985180452Z level=warn msg="manifest watcher: source listed zero manifests" source=discovery
 logger=search-manifest-watcher t=2026-11-13T20:38:09.985224935Z level=warn msg="manifest watcher poll cycle: zero manifests, keeping previous set"
 logger=plugin.backgroundinstaller t=2026-11-13T20:38:12.06433563Z level=error msg="Failed to get plugin info" pluginId=opentsdb error="Get \"https://grafana.com/api/plugins/opentsdb/versions\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+logger=plugin.backgroundinstaller t=2026-11-13T20:38:22.524382858Z level=error msg="Failed to get plugin info" pluginId=grafana-advisor-app error="context deadline exceeded (Client.Timeout or context cancellation while reading body)"
+logger=plugin.backgroundinstaller t=2026-11-13T20:38:22.89885333Z level=info msg="Installing plugin" pluginId=elasticsearch version=
+logger=bleve-backend namespace=default group=provisioning.grafana.app resource=repositories reason=getStats t=2026-11-13T20:38:26.539830307Z level=info msg="Building index using memory"
+logger=resource-search namespace=default group=provisioning.grafana.app resource=repositories t=2026-11-13T20:38:26.540211295Z level=info msg="Listed documents for index" documents=map[provisioning.grafana.app/repositories:0]
+logger=bleve-backend namespace=default group=provisioning.grafana.app resource=repositories reason=getStats t=2026-11-13T20:38:26.541336329Z level=info msg="Finished building index" elapsed=1.452871ms listRV=1
+logger=bleve-backend namespace=default group=provisioning.grafana.app resource=repositories reason=getStats t=2026-11-13T20:38:26.541349254Z level=info msg="Storing index in cache" key="{Namespace:default Group:provisioning.grafana.app Resource:repositories}" expiration=2026-11-13T20:48:26.541348682Z
+logger=bleve-backend namespace=default group=playlist.grafana.app resource=playlists reason=getStats t=2026-11-13T20:38:26.542899749Z level=info msg="Building index using memory"
+logger=resource-search namespace=default group=playlist.grafana.app resource=playlists t=2026-11-13T20:38:26.543237676Z level=info msg="Listed documents for index" documents=map[playlist.grafana.app/playlists:0]
+logger=bleve-backend namespace=default group=playlist.grafana.app resource=playlists reason=getStats t=2026-11-13T20:38:26.550681166Z level=info msg="Finished building index" elapsed=7.736226ms listRV=1
+logger=bleve-backend namespace=default group=playlist.grafana.app resource=playlists reason=getStats t=2026-11-13T20:38:26.550862671Z level=info msg="Storing index in cache" key="{Namespace:default Group:playlist.grafana.app Resource:playlists}" expiration=2026-11-13T20:48:26.550860129Z
+logger=bleve-backend namespace=default group=folder.grafana.app resource=folders reason=getStats t=2026-11-13T20:38:26.552227278Z level=info msg="Building index using memory"
+logger=resource-search namespace=default group=folder.grafana.app resource=folders t=2026-11-13T20:38:26.552929082Z level=info msg="Listed documents for index" documents=map[folder.grafana.app/folders:0]
+logger=bleve-backend namespace=default group=folder.grafana.app resource=folders reason=getStats t=2026-11-13T20:38:26.554010659Z level=info msg="Finished building index" elapsed=1.608157ms listRV=1794593920201005
+logger=bleve-backend namespace=default group=folder.grafana.app resource=folders reason=getStats t=2026-11-13T20:38:26.554110786Z level=info msg="Storing index in cache" key="{Namespace:default Group:folder.grafana.app Resource:folders}" expiration=2026-11-13T20:48:26.554108493Z
+logger=infra.usagestats t=2026-11-13T20:38:26.555348227Z level=info msg="Usage stats are ready to report"
+logger=plugin.backgroundinstaller t=2026-11-13T20:38:32.904372682Z level=error msg="Failed to install plugin" pluginId=elasticsearch version= error="context deadline exceeded (Client.Timeout or context cancellation while reading body)"
+logger=search-manifest-watcher t=2026-11-13T20:38:38.888274453Z level=warn msg="manifest watcher: source listed zero manifests" source=discovery
+logger=search-manifest-watcher t=2026-11-13T20:38:38.888333084Z level=warn msg="manifest watcher poll cycle: zero manifests, keeping previous set"
+logger=plugin.backgroundinstaller t=2026-11-13T20:38:43.221613242Z level=error msg="Failed to get plugin info" pluginId=grafana-pyroscope-app error="context deadline exceeded (Client.Timeout or context cancellation while reading body)"
+logger=plugin.backgroundinstaller t=2026-11-13T20:38:53.707613547Z level=error msg="Failed to get plugin info" pluginId=influxdb error="context deadline exceeded (Client.Timeout or context cancellation while reading body)"
+logger=plugin.backgroundinstaller t=2026-11-13T20:39:04.084577564Z level=error msg="Failed to get plugin info" pluginId=grafana-exploretraces-app error="context deadline exceeded (Client.Timeout or context cancellation while reading body)"
+logger=plugin.backgroundinstaller t=2026-11-13T20:39:04.654966796Z level=info msg="Installing plugin" pluginId=stackdriver version=
+logger=plugin.backgroundinstaller t=2026-11-13T20:39:14.660312984Z level=error msg="Failed to install plugin" pluginId=stackdriver version= error="context deadline exceeded (Client.Timeout or context cancellation while reading body)"
+logger=search-manifest-watcher t=2026-11-13T20:39:23.771553624Z level=warn msg="manifest watcher: source listed zero manifests" source=discovery
+logger=search-manifest-watcher t=2026-11-13T20:39:23.771585605Z level=warn msg="manifest watcher poll cycle: zero manifests, keeping previous set"
+logger=search-manifest-watcher t=2026-11-13T20:40:08.449171747Z level=warn msg="manifest watcher: source listed zero manifests" source=discovery
+logger=search-manifest-watcher t=2026-11-13T20:40:08.449203063Z level=warn msg="manifest watcher poll cycle: zero manifests, keeping previous set"
+logger=search-manifest-watcher t=2026-11-13T20:41:05.796388508Z level=warn msg="manifest watcher: source listed zero manifests" source=discovery
+logger=search-manifest-watcher t=2026-11-13T20:41:05.796416532Z level=warn msg="manifest watcher poll cycle: zero manifests, keeping previous set"
+logger=search-manifest-watcher t=2026-11-13T20:41:54.153591382Z level=warn msg="manifest watcher: source listed zero manifests" source=discovery
+logger=search-manifest-watcher t=2026-11-13T20:41:54.153660673Z level=warn msg="manifest watcher poll cycle: zero manifests, keeping previous set"
+logger=search-manifest-watcher t=2026-11-13T20:42:47.354239417Z level=warn msg="manifest watcher: source listed zero manifests" source=discovery
+logger=search-manifest-watcher t=2026-11-13T20:42:47.354268436Z level=warn msg="manifest watcher poll cycle: zero manifests, keeping previous set"
+logger=search-manifest-watcher t=2026-11-13T20:43:39.975192737Z level=warn msg="manifest watcher: source listed zero manifests" source=discovery
+logger=search-manifest-watcher t=2026-11-13T20:43:39.975242659Z level=warn msg="manifest watcher poll cycle: zero manifests, keeping previous set"
