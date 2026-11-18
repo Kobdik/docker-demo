@@ -1,0 +1,19 @@
+services:
+  postgres:
+    image: postgres:15
+    container_name: postgres
+    environment:
+      POSTGRES_PASSWORD: ${PG_PASSWORD}
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    networks:
+      - my-pg-network
+
+networks:
+  my-pg-network:
+    driver: bridge
+
+volumes:
+  pgdata:
