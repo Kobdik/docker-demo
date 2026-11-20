@@ -1,0 +1,4 @@
+ansible localhost -m setup \
+  -a "filter=ansible_default_ipv4,ansible_os_family,ansible_distribution,ansible_distribution_version,ansible_hostname,ansible_env" \
+  -c local
+
